@@ -137,3 +137,22 @@ main {
 .loadmore:active{
 	transform: scale(1.2);
 }
+
+.previous {
+	position: absolute;
+	left: 35%;
+	height: 50px;
+	width: 200px;
+	align-items: center;
+	border-radius: 30px;
+	font-size: 1.5rem;
+	background-color: #d294d84f;
+	color: rgb(19, 2, 2);
+	
+}
+.previous:hover{
+	background-color: aqua;
+}
+.previous:active{
+	transform: scale(1.2);
+}
