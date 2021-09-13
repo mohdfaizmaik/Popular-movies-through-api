@@ -108,3 +108,23 @@ main {
 .movie:hover .overview{
 	transform: translateY(0);
 }
+
+
+.loadmore {
+	position: absolute;
+	left: 40%;
+	height: 50px;
+	width: 200px;
+	align-items: center;
+	border-radius: 30px;
+	font-size: 1.5rem;
+	background-color: #d294d84f;
+	color: rgb(19, 2, 2);
+	
+}
+.loadmore:hover{
+	background-color: aqua;
+}
+.loadmore:active{
+	transform: scale(1.2);
+}
