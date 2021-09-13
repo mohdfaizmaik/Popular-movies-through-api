@@ -80,3 +80,12 @@ function loadmore(){
 	getMovies(API_URL);
 	}
 }
+
+function previous(){
+	if(count>1){
+		count = count-1;
+		const API_URL = 'https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=cd27e7d96b1871bb1f0f6972616cf43a&page='+count;
+
+		getMovies(API_URL);
+	}
+}
