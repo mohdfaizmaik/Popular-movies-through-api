@@ -129,6 +129,7 @@ main {
 	font-size: 1.5rem;
 	background-color: #d294d84f;
 	color: rgb(19, 2, 2);
+	cursor:pointer;
 	
 }
 .loadmore:hover{
@@ -148,6 +149,7 @@ main {
 	font-size: 1.5rem;
 	background-color: #d294d84f;
 	color: rgb(19, 2, 2);
+	cursor:pointer;
 	
 }
 .previous:hover{
