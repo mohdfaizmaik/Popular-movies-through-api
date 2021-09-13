@@ -32,6 +32,15 @@ header {
 	color: #fff;
 }
 
+.title{
+	position: absolute;
+	left: 40px;
+	top: -50px;
+	color: #fff;
+	font-size: 4rem;	
+}
+
+
 .search::placeholder {
 	color: #7378c5;
 }
