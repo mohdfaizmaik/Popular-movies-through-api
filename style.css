@@ -172,3 +172,16 @@ main {
 		left:25%
 	}
 }
+@media screen and (max-width: 600px){
+	.title{
+		position: absolute;
+		top: -20px;
+		font-size: 1.5rem;
+	}
+	.loadmore{
+		left:60%;
+	}
+	.previous{
+		left:25%
+	}
+}
