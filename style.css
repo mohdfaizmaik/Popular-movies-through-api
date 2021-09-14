@@ -117,7 +117,10 @@ main {
 .movie:hover .overview{
 	transform: translateY(0);
 }
-
+.btn{
+	padding-bottom:40px;
+	margin-bottom:30px;
+}
 
 .loadmore {
 	position: absolute;
@@ -182,6 +185,6 @@ main {
 		left:60%;
 	}
 	.previous{
-		left:25%
+		left:15%
 	}
 }
