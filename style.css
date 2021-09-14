@@ -158,3 +158,11 @@ main {
 .previous:active{
 	transform: scale(1.2);
 }
+
+@media screen and (max-width: 800px){
+	.title{
+		position: absolute;
+		top: -20px;
+		font-size: 2.5rem;
+	}
+}
